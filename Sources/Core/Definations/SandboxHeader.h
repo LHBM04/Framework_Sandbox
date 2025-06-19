@@ -6,6 +6,7 @@
 #endif
 
 // C++ 표준 라이브러리 (기본 유틸 용도)
+#pragma region C++ Standards
 #include <algorithm>
 #include <array>
 #include <cassert>
@@ -37,5 +38,13 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
+
+#pragma endregion
+#pragma region Windows Platforms
+#include <windows.h>
+
+#pragma endregion
+
+#include "SandboxTypes.h"
 
 #endif // !GUARD_SANDBOXHEADER_H

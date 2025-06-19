@@ -1,0 +1,144 @@
+# === [C++] ===
+# 컴파일된 바이너리 / 오브젝트 파일
+*.o
+*.obj
+*.lo
+*.slo
+
+# 정적 라이브러리
+*.lib
+*.a
+*.la
+*.lai
+
+# 동적 라이브러리
+*.dll
+*.so
+*.dylib
+
+# 실행 파일
+*.exe
+*.out
+*.app
+
+# 전처리된 헤더
+*.gch
+*.pch
+
+# 디버깅 정보
+*.pdb
+*.ipdb
+*.ilk
+
+# 링커 관련
+*.rsp
+*.exp
+*.map
+
+# OpenGL 셰이더 캐시 (사용할 경우)
+*.spv
+*.shadercache/
+*.cache
+
+# 임시 파일
+*.tmp
+*.log
+*.bak
+*~
+
+# CMake (C++ 프로젝트에서 자주 사용됨)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+out/
+
+# === [Visual Studio] ===
+# 사용자 설정
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# 솔루션 관련
+*.vcxproj.user
+*.ncb
+*.aps
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# 자동 생성 폴더 및 파일
+.vs/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.tlog
+
+# 테스트 결과
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+
+# 패키지 관련
+packages/
+*.nupkg
+*.snupkg
+
+# 퍼블리시 관련
+publish/
+*.publishsettings
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# 리포트 / 업그레이드 로그
+_UpgradeReport_Files/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# === [VSCode] ===
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# === [기타 공통] ===
+# 백업 파일
+*.bak
+*.orig
+*.old
+
+# 임시 파일
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Windows Installer
+*.msi
+*.msm
+*.msp
+
+# 로그
+*.log
+
+# local history
+.history/
+.localhistory/
+
+# JetBrains Rider / CLion (C++ IDE)
+.idea/
+cmake-build-*/
+
+# 프로젝트 환경 파일
+.env
