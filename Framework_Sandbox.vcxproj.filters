@@ -13,6 +13,12 @@
     <Filter Include="Core\Definations">
       <UniqueIdentifier>{712d58f7-9ddf-49c6-9702-90891155f201}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\private">
+      <UniqueIdentifier>{1561cbd1-e29e-48e3-887c-ce6fb02a9e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\public">
+      <UniqueIdentifier>{f9d4dc19-bf96-4fd0-8ce3-b8cd17c51291}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sources\Core\Definations\SandboxHeader.h">
@@ -20,6 +26,9 @@
     </ClInclude>
     <ClInclude Include="Sources\Core\Definations\SandboxTypes.h">
       <Filter>Core\Definations</Filter>
+    </ClInclude>
+    <ClInclude Include="헤더.h">
+      <Filter>Core\public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
