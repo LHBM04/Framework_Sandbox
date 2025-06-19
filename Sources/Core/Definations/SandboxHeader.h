@@ -48,10 +48,10 @@
 // OpenGL 그래픽 라이브러리
 #pragma region OpenGL Headers
 // OpenGL Core & Extensions
-#include <GL/glew.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glext.h>
+#include <GL/glew.h>
 
 // FreeGLUT
 #include <GL/freeglut.h>
