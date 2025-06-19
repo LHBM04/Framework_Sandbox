@@ -1,12 +1,8 @@
 ﻿#ifndef GUARD_SANDBOXHEADER_H
 #define GUARD_SANDBOXHEADER_H
 
-#ifndef WIN32_LEAN_AND_MEAN
-#define WIN32_LEAN_AND_MEAN
-#endif
-
 // C++ 표준 라이브러리 (기본 유틸 용도)
-#pragma region C++ Standards
+#pragma region C++ Standard Headers
 #include <algorithm>
 #include <array>
 #include <cassert>
@@ -38,11 +34,36 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
+#pragma endregion 
 
-#pragma endregion
-#pragma region Windows Platforms
+// Windows 플랫폼 라이브러리
+#pragma region Windows Headers
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+
 #include <windows.h>
+#pragma endregion
 
+// OpenGL 그래픽 라이브러리
+#pragma region OpenGL Headers
+// OpenGL Core & Extensions
+#include <GL/glew.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glext.h>
+
+// FreeGLUT
+#include <GL/freeglut.h>
+#include <GL/freeglut_ext.h>
+
+// GLFW
+#include <GLFW/glfw3.h>
+#include <GLFW/glfw3native.h>
+
+// GLM
+#include <glm/ext.hpp>
+#include <glm/glm.hpp>
 #pragma endregion
 
 #include "SandboxTypes.h"
