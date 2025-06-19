@@ -34,7 +34,6 @@
   <ItemGroup>
     <ClInclude Include="Sources\Core\Definations\SandboxHeader.h" />
     <ClInclude Include="Sources\Core\Definations\SandboxTypes.h" />
-    <ClInclude Include="헤더.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -27,8 +27,5 @@
     <ClInclude Include="Sources\Core\Definations\SandboxTypes.h">
       <Filter>Core\Definations</Filter>
     </ClInclude>
-    <ClInclude Include="헤더.h">
-      <Filter>Core\public</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
