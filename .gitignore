@@ -79,6 +79,13 @@ out/
 [Ll]og/
 *.tlog
 
+# 플랫폼별 빌드 디렉토리 (대소문자 무시)
+[xX]64/
+[xX]86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
 # 테스트 결과
 [Tt]est[Rr]esult*/
 *.coverage
