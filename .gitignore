@@ -59,6 +59,7 @@ out/
 *.user
 *.userosscache
 *.suo
+*.sln
 *.sln.docstates
 
 # 솔루션 관련
