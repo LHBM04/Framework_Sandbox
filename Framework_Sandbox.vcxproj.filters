@@ -2,24 +2,59 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Sources\Main.cpp" />
-    <ClCompile Include="Sources\Core\Definations\SandboxHeader.cpp">
-      <Filter>Core\Definations</Filter>
+    <ClCompile Include="Sources\Application\WindowBase.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Common\Definitions\SandboxHeader.cpp">
+      <Filter>Common\Definitions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Core">
-      <UniqueIdentifier>{1630a327-0884-4969-bce4-ba59f964ecdf}</UniqueIdentifier>
+    <ClInclude Include="Sources\Application\WindowBase.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\Definitions\SandboxHeader.h">
+      <Filter>Common\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\Definitions\SandboxTypes.h">
+      <Filter>Common\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\Utilities\Math\Vector2.h">
+      <Filter>Common\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\Utilities\Math\Vector3.h">
+      <Filter>Common\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\Utilities\Math\Vector4.h">
+      <Filter>Common\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Common\Utilities\Patterns\SingletonBase.h">
+      <Filter>Common\Utilities\Patterns</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{364cad88-d486-4c4d-b25b-13c9575f943b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\Definations">
-      <UniqueIdentifier>{712d58f7-9ddf-49c6-9702-90891155f201}</UniqueIdentifier>
+    <Filter Include="Application">
+      <UniqueIdentifier>{3e35296e-8e11-437d-aad5-b583b7c5b219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Definitions">
+      <UniqueIdentifier>{6911f5eb-a62c-4fbe-9e3f-d4d2735182b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities">
+      <UniqueIdentifier>{ce83a15d-bd2c-4f70-951b-b8e65f2b42f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities\Patterns">
+      <UniqueIdentifier>{a2d27894-e22d-487d-8dad-31d73249537f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities\Math">
+      <UniqueIdentifier>{a4eb4912-d99e-4282-9ddd-220a84194c4e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sources\Core\Definations\SandboxHeader.h">
-      <Filter>Core\Definations</Filter>
-    </ClInclude>
-    <ClInclude Include="Sources\Core\Definations\SandboxTypes.h">
-      <Filter>Core\Definations</Filter>
-    </ClInclude>
+    <None Include="Sources\Common\Utilities\Patterns\SingletonBase.inl">
+      <Filter>Common\Utilities\Patterns</Filter>
+    </None>
   </ItemGroup>
 </Project>
