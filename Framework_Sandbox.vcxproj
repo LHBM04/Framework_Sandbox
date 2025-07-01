@@ -19,7 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Sources\Runtime\Application\WindowBase.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Sources\Runtime\Definition\SandboxHeader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Sources\SandboxMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Runtime\Application\WindowBase.hpp" />
+    <ClInclude Include="Sources\Runtime\Application\WindowMessage.hpp" />
+    <ClInclude Include="Sources\Runtime\Definition\SandboxHeader.hpp" />
+    <ClInclude Include="Sources\Runtime\Definition\SandboxMacro.hpp" />
+    <ClInclude Include="Sources\Runtime\Definition\SandboxTypes.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -94,13 +113,13 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>UNICODE;GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>SandboxHeader.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -115,13 +134,13 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>UNICODE;GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>SandboxHeader.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -134,13 +153,13 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>UNICODE;GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>SandboxHeader.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -155,13 +174,13 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>UNICODE;GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>SandboxHeader.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
