@@ -31,7 +31,7 @@
     <Filter Include="Runtime\Graphic\DirectX12">
       <UniqueIdentifier>{63e17cac-c530-419c-8fad-4b361c89ebe7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Features">
+    <Filter Include="Feature">
       <UniqueIdentifier>{e5a67245-d06f-4255-91d9-d42434053c5f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
