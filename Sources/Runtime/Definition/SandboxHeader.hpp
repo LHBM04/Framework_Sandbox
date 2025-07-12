@@ -49,9 +49,7 @@
 #pragma region OpenGL Headers
 // OpenGL Core & Extensions
 #include <GL/glew.h>
-#include <GL/gl.h>
 #include <GL/glu.h>
-#include <GL/glext.h>
 
 // FreeGLUT
 #include <GL/freeglut.h>
@@ -62,8 +60,8 @@
 #include <GLFW/glfw3native.h>
 
 // GLM
-#include <glm/ext.hpp>
-#include <glm/glm.hpp>
+#include <ext.hpp>
+#include <glm.hpp>
 #pragma endregion
 
 #endif // !GUARD_SANDBOXHEADER_HPP

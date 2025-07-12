@@ -120,7 +120,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include;$(ProjectDir)Sources\External\glfw\include;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -141,7 +141,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include;$(ProjectDir)Sources\External\glfw\include;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -160,7 +160,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include;$(ProjectDir)Sources\External\glfw\include;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -181,7 +181,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>Definition\SandboxHeader.hpp</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include\GL;$(ProjectDir)Sources\Externa\glfw\include\GLFW;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Sources\External\fmod\core\inc;$(ProjectDir)Sources\External\fmod\fsbank\inc;$(ProjectDir)Sources\External\fmod\studio\inc;$(ProjectDir)Sources\External\freeglut\include;$(ProjectDir)Sources\External\glew\include;$(ProjectDir)Sources\External\glfw\include;$(ProjectDir)Sources\External\glm;$(ProjectDir)Sources\External\imgui;$(ProjectDir)Sources\External\nlohmann;$(ProjectDir)Sources\Editor;$(ProjectDir)Sources\Runtime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
