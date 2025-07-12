@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Sources\SandboxMain.cpp" />
+    <ClCompile Include="Sources\SandboxEntry.cpp" />
     <ClCompile Include="Sources\Runtime\Application\WindowBase.cpp">
       <Filter>Runtime\Application</Filter>
     </ClCompile>
@@ -16,14 +16,23 @@
     <Filter Include="Editor">
       <UniqueIdentifier>{f702cbd4-b9c1-4722-b4c7-7cafc7abdbcf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="External">
-      <UniqueIdentifier>{25a926cf-560e-4380-864b-5ceb3e46e4ab}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Runtime\Definition">
       <UniqueIdentifier>{bcc75ec8-c850-40e4-a14a-f3ae8fb00b62}</UniqueIdentifier>
     </Filter>
     <Filter Include="Runtime\Application">
       <UniqueIdentifier>{1a5e72ed-84a4-4085-8193-25850cba1e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Graphic">
+      <UniqueIdentifier>{2ef82876-9763-4e77-9678-57f5cc0c5938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Graphic\OpenGL">
+      <UniqueIdentifier>{22c5008f-315c-40f7-b4fb-2a7a8eba8725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Graphic\DirectX12">
+      <UniqueIdentifier>{63e17cac-c530-419c-8fad-4b361c89ebe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{e5a67245-d06f-4255-91d9-d42434053c5f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +50,9 @@
     </ClInclude>
     <ClInclude Include="Sources\Runtime\Application\WindowMessage.hpp">
       <Filter>Runtime\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Runtime\Graphic\RendererBase.hpp">
+      <Filter>Runtime\Graphic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
