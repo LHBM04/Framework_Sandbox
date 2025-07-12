@@ -31,7 +31,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Sources\SandboxMain.cpp" />
+    <ClCompile Include="Sources\SandboxEntry.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sources\Runtime\Application\WindowBase.hpp" />
@@ -39,6 +39,7 @@
     <ClInclude Include="Sources\Runtime\Definition\SandboxHeader.hpp" />
     <ClInclude Include="Sources\Runtime\Definition\SandboxMacro.hpp" />
     <ClInclude Include="Sources\Runtime\Definition\SandboxTypes.hpp" />
+    <ClInclude Include="Sources\Runtime\Graphic\RendererBase.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
