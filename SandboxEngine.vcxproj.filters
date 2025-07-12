@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Sources\SandboxEntry.cpp" />
     <ClCompile Include="Sources\Runtime\Application\WindowBase.cpp">
       <Filter>Runtime\Application</Filter>
     </ClCompile>
     <ClCompile Include="Sources\Runtime\Definition\SandboxHeader.cpp">
       <Filter>Runtime\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SandboxMain.cpp">
+      <Filter>Runtime</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
